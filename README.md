@@ -8,12 +8,14 @@
 
 Чтобы запустить скрипт, скачайте его к себе, далее создайте новое виртуальное окружение:
 
-**Linux/MACoS**: python3 -m venv venv_name
+**Linux/MACoS**: python3 -m venv venv_name 
+
 **Windows**: python -m venv venv_name
 
 Далее активируйте его, перейдя в папку  
 
 **Linux/MACoS**: cd /**папка окружения**/bin
+
 **Windows**: cd /**папка окружения**/Source
 
 и далее: activate, для деактивации используйте команду "deactivate"
@@ -21,11 +23,13 @@
 После этого перейдите в корневую папку проекта и установите все необходимые библиотеки командой:
 
 **Linux/MACoS**: python3 -m pip install -r requirements.txt
+
 **Windows**: python -m pip install -r requirements.txt
 
 После этого из той же папки выполните команду:
 
 **Linux/MACoS**: python3 run.py
+
 **Windows**: python3 run.py
 
 Скрипт будет забирать данные из гугл таблицы и при изменении их перезаписывать.
