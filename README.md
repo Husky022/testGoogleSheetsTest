@@ -23,7 +23,10 @@
 **Linux/MACoS**: python3 -m pip install -r requirements.txt
 **Windows**: python -m pip install -r requirements.txt
 
-После этого из той же папки выполните команду run.py
+После этого из той же папки выполните команду:
+
+**Linux/MACoS**: python3 run.py
+**Windows**: python3 run.py
 
 Скрипт будет забирать данные из гугл таблицы и при изменении их перезаписывать.
 
